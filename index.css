@@ -1,0 +1,35 @@
+#WritingBackGround1 {
+    background-image: url("https://www.seriouseats.com/images/2014/09/la-korean-food-primary.jpg");
+    height: 500px;
+    background-size: cover;
+    width: 50%;
+}
+.WritingBackGround2 {
+    background-image: url("https://s3-media1.fl.yelpcdn.com/bphoto/YV5C7KIOaN_fiuwcF9kTKw/o.jpg");
+    height: 500px;
+    background-size: cover;
+    width: 50%;
+    position: relative;
+}
+
+.WritingBackGround2:before {
+    background: rgba(255,255,255,0.5);
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.ImageBreakThrough {
+    color: white;
+    font-size: x-large;
+}
+.container {
+    display: flex;
+}
+
+/* .WritingBackGround2:after {
+    background-color: rgba(0,0,0,0.5)
+} */
