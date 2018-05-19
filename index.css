@@ -45,7 +45,8 @@
     align-items: center;
 }
 #AllOfMaWriting {
-    
+    display: flex;
+    justify-content: space-between;
 }
 
 /* .WritingBackGround2:after {
