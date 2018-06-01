@@ -31,8 +31,8 @@
 .MaPawagwaphs {
     display: flex;
     justify-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .container {
     display: flex;
@@ -47,8 +47,11 @@
 #AllOfMaWriting {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 /* .WritingBackGround2:after {
     background-color: rgba(0,0,0,0.5)
 } */
+
+s
